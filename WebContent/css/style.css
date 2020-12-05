@@ -1,0 +1,66 @@
+html{
+	font-family: ubuntu;
+	font-weight: bold;	
+}
+
+.main-layout {
+	width: 80%;
+	height: 80%;
+	padding: 20px;
+	position: absolute;
+	border-radius: 10px;
+	border: solid #7dacea;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #f4f2f2;
+	text-align: center;
+}
+
+.highlight-text {
+	font-size: 70px;
+	font-family: ubuntu;
+	font-weight: bold;
+	color: rgb(0,100, 150);
+	text-align: justify;
+}
+
+.align-left {
+	display: inherit;
+	text-align: right;
+}
+
+.button-classic {
+	color: rgb(0, 100, 100);
+	padding: 20px;
+	margin-top: 30px;
+	border-color: rgb(0, 120, 100);
+	border-radius: 10px;
+	border: solid;
+	border-width: 2px;
+	width: 20%;
+	background-color: #ffff;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.link-files {
+	color: rgb(0, 100, 100);
+	text-decoration: none;
+	width: inherit;
+}
+
+.file-layout {
+	width: 80%;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	left: 10%;
+	position: absolute;
+	border-radius: 10px;
+	border: solid #7dacea;
+	background-color: #f4f2f2;
+	text-align: left;
+}
+

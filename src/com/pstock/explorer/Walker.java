@@ -73,13 +73,5 @@ public class Walker {
 		
 		return null;
 	}
-	
-//
-//	public static void main(String[] args) {
-//		Walker w = new Walker();
-//		for(String f : w.getData()) {
-//			System.out.println(f);
-//		}
-//	}
 
 }
