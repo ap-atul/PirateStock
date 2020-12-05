@@ -36,6 +36,10 @@ public class Walker {
 
 		if(walks != null) {
 			for (File file : walks) {
+
+				// skipping the dot files
+				if(file.getName().charAt(0) == '.')
+					continue;
 	
 				if (file.isDirectory()) {
 					folders.add(file.getName());
